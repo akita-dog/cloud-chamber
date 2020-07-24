@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: gateway
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 0.0.0.0:8848
