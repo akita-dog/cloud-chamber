@@ -1,9 +1,10 @@
 spring:
   application:
-    name: gateway
+    name: provider-demo1
   cloud:
     nacos:
       discovery:
         server-addr: 192.168.56.201:8848
+
 server:
-  port: 8000
+  port: 9011

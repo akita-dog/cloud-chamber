@@ -12,7 +12,9 @@
     <artifactId>particles</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>app-demo1</module>
+        <module>consumer-demo1</module>
+        <module>provider-demo1</module>
+        <module>provider-demo2</module>
     </modules>
 
     <dependencies>
