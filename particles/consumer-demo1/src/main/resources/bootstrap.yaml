@@ -4,7 +4,11 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.56.201:8848
+        server-addr: 0.0.0.0:8848
+      config:
+        file-extension: yaml
+  profiles:
+    active: dev
 
 server:
   port: 9001
